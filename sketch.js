@@ -33,11 +33,12 @@ var posY = [];
 var speed = []; 
 var bleu = [];
 var vert = [];
-
 var taille = []; 
+
+
 function setup() //appeler qu'une fois au début et elle nous sert à paramétrer toute nos variables
 {
-
+  
     largeur = windowWidth
     hauteur = windowHeight
     canvas = createCanvas();
@@ -88,6 +89,7 @@ function setup() //appeler qu'une fois au début et elle nous sert à paramétre
         taille[i] = random(0.1, 0.9);
    }
     position_button();
+   
 }
 function draw() //dessiner chaque image que l'on voit à l'ecran
 {
